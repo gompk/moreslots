@@ -1,0 +1,13 @@
+{
+  "package": "net.gompk.moreslots.mixin",
+  "mixins": [
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "client.InventoryScreenMixin"
+  ],
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "moreslots.refmap.json",
+  "minVersion": "0.8"
+}

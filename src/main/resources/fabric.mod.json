@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "moreslots",
+  "version": "1.0.0",
+
+  "name": "More Slots",
+  "description": "Adds 2 extra rows of inventory slots to the player inventory.",
+  "authors": ["Gomk"],
+  "license": "MIT",
+  "contact": {
+    "sources": "https://github.com/yourname/moreslots"
+  },
+
+  "entrypoints": {
+    "main": [
+      "net.gompk.moreslots.ExtraInventoryMod"
+    ],
+    "client": [
+      "net.gompk.moreslots.client.ExtraInventoryClient"
+    ]
+  },
+
+  "mixins": [
+    "moreslots.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21.8"
+  }
+}
